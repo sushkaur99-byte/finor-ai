@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --color-forest-950: #0B1B15;
+  --color-forest-900: #102820;
+  --color-forest-800: #16382C;
+  --color-forest-700: #1D4938;
+  --color-forest-600: #265F4A;
+  
+  --color-emerald-deep: #1D4938;
+  --color-emerald-accent: #235A45;
+  --color-emerald-glow: #2E755B;
+
+  --color-sage-300: #C2D1C4;
+  --color-sage-400: #A8BBAA;
+  --color-sage-500: #8E9F90;
+  --color-sage-600: #75847B;
+
+  --color-gold-400: #E5CA85;
+  --color-gold-500: #D6B66C;
+  --color-gold-600: #BC9948;
+  --color-gold-700: #96762B;
+
+  --color-ivory-50: #FCFAF6;
+  --color-ivory-100: #F5F1E8;
+  --color-ivory-200: #ECE5D6;
+  --color-ivory-300: #DDD2BD;
+
+  --color-wealth-dark: #17251F;
+  --color-wealth-muted: #75847B;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #F5F1E8;
+  color: #17251F;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars for clean financial UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C2D1C4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A8BBAA;
+}
+
+
